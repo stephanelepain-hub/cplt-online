@@ -30,3 +30,7 @@ Git pushes deploy automatically to the Vercel project `site`. Two things broke t
 and has been removed, and the project setting "Require verified commits" cancelled every
 unsigned commit and has been switched off. If deployments show as "Canceled" again, check
 that setting first.
+
+## Retirement (prepared 2026-11-05, branch retire/2026-11-05)
+
+cplt.online is being retired. `vercel.json` sends every page to cplt.tech with permanent (308) redirects: the demo, how-it-works and the Studio test recordings go to https://cplt.tech/proof, everything else to https://cplt.tech/. The IndexNow key file stays served. Source, history, the Vercel project and the domain are kept.

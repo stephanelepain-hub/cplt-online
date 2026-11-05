@@ -9,14 +9,43 @@
   "trailingSlash": false,
   "redirects": [
     {
-      "source": "/(.*)",
-      "has": [
-        {
-          "type": "host",
-          "value": "www.cplt.online"
-        }
-      ],
-      "destination": "https://cplt.online/$1",
+      "source": "/demo",
+      "destination": "https://cplt.tech/proof",
+      "permanent": true
+    },
+    {
+      "source": "/demo.html",
+      "destination": "https://cplt.tech/proof",
+      "permanent": true
+    },
+    {
+      "source": "/demo-app.js",
+      "destination": "https://cplt.tech/proof",
+      "permanent": true
+    },
+    {
+      "source": "/demo-data.js",
+      "destination": "https://cplt.tech/proof",
+      "permanent": true
+    },
+    {
+      "source": "/how-it-works",
+      "destination": "https://cplt.tech/proof",
+      "permanent": true
+    },
+    {
+      "source": "/how-it-works.html",
+      "destination": "https://cplt.tech/proof",
+      "permanent": true
+    },
+    {
+      "source": "/studio-test-:n(\\d+).:ext(mp4|jpg)",
+      "destination": "https://cplt.tech/proof",
+      "permanent": true
+    },
+    {
+      "source": "/((?!f4acb61f7d6554464f08a06427c13285\\.txt$).*)",
+      "destination": "https://cplt.tech/",
       "permanent": true
     }
   ],
